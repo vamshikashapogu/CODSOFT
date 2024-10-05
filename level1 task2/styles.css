@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.navbar .logo {
+    height: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: wheat;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Banner Section */
+.banner {
+    background: url('header\ imag.avif') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner .content {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    border: 2px solid #000; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.banner .content h1 {
+    font-size: 50px;
+    color: #000000;
+    margin: 0;
+}
+
+.banner .content p {
+    color: #000000;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+
+.banner .buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #f04;
+    color: white;
+    cursor: pointer;
+}
+
+.banner .buttons button:hover {
+    background-color: #c03;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+
+.feature-box {
+    width: 30%;
+    text-align: center;
+}
+
+.feature-box h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
